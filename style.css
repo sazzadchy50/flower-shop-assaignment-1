@@ -16,19 +16,25 @@ body {
   font-weight: 700;
   cursor: pointer;
 }
+.primary-style{ 
+  width: 1440px;
+  border: 2px solid;
+  margin: 130px 240px;
+}
 /* banner related styles*/
 .header,
 .hot-deal-section {
   background: rgba(229, 84, 115, 0.1);
 }
+
 .banner-section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
   padding: 50px 240px 0px 240px;
   height: 100vh;
   gap: 100px;
+  margin-bottom: 0;
 }
 
 .banner-title {
@@ -45,14 +51,7 @@ body {
   margin: 32px 0;
   line-height: 30px;
 }
-
-.banner-img img {
-  /*  width: 00px; */
-  /*   padding-top: 50px;
-  margin-right: 240px;
-  border: 1px solid; 
-  height: ; */
-}
+/* banner related styles end*/
 
 /* Hot deal section styles */
 
@@ -81,4 +80,31 @@ body {
   font-weight: 400;
   line-height: 30px;
   padding: 24px 0 32px 0;
+}
+/* Hot deal section end */
+
+/* Instagram section styles */
+
+
+.instagram-title{
+  color:#272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;  
+}
+.instagram-description{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 50px 0;
+ 
+  
+}
+.flower-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
 }
