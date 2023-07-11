@@ -42,18 +42,17 @@ body {
 .header,
 .hot-deal-section {
   background: rgba(229, 84, 115, 0.1);
-
+ 
 }
 
 .banner-section {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 50px 240px 0px 240px;
+  align-items: center;  
   height: 100vh;
   gap: 100px;
-  margin-bottom: 0;
-
+  position: relative;
+  
 }
 
 .banner-title {
@@ -69,6 +68,13 @@ body {
   max-width: 630px;
   margin: 32px 0;
   line-height: 30px;
+}
+
+.banner-img img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 240px;
 }
 /* banner related styles end*/
 /* About us section styles start*/
@@ -148,16 +154,16 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
- padding: 75px 0;
+  padding: 75px 0;
 }
-.delivery-item{
+.delivery-item {
   text-align: center;
 }
-.delivery-title{
-  color: rgba(39, 39, 39, 0.80);
+.delivery-title {
+  color: rgba(39, 39, 39, 0.8);
   text-align: center;
   font-size: 24px;
-  font-weight: 700; 
+  font-weight: 700;
   padding-top: 24px;
 }
 /* delivery section styles end*/
