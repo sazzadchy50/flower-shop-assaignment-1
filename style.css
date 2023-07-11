@@ -31,6 +31,7 @@ body {
   width: 600px;
   margin: auto;
 }
+/* shared styles end*/
 
 /* banner related styles*/
 .header,
@@ -102,6 +103,7 @@ body {
   text-decoration: underline;
   margin-top: 32px;
 }
+/* featured flower section styles end*/
 
 /* Hot deal section styles */
 
