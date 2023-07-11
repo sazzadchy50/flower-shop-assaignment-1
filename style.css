@@ -91,7 +91,9 @@ body {
   font-size: 40px;
   font-weight: 700;
 }
-.instagram-description, .latest-deal-description{
+.instagram-description,
+.latest-deal-description,
+.footer-description {
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
@@ -109,30 +111,52 @@ body {
 
 /* latest deal section styles */
 
-.latest-deal-container{
+.latest-deal-container {
   background-image: url(asset/Rectangle\ 9.png);
   background-size: cover;
 }
-.latest-deal-title{
-  color:#272727;
+.latest-deal-title {
+  color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
   padding-top: 120px;
 }
 
-.latest-deal-subscribe{
-  
+.latest-deal-subscribe {
   display: flex;
   justify-content: center;
   margin-bottom: 120px;
- 
 }
-.latest-deal-subscribe input{
+.latest-deal-subscribe input {
   width: 50%;
   padding: 10px;
   border: none;
   border-radius: 8px;
-  margin-right: 10px
+  margin-right: 10px;
+}
 
+/* latest deal section styles end*/
+/* footer section styles */
+.footer{
+  padding: 130px 0;
+  background: #111010;
+}
+.footer-description{
+  color: rgba(255, 255, 255, 0.90);
+}
+.footer-title{
+ font-size: 48px;
+ font-weight: 900;
+ text-align: center;
+ color: white;
+}
+.footer-title span{
+  color: red;
+}
+.footer-copyright{
+  color: rgba(255, 255, 255, 0.40);;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
